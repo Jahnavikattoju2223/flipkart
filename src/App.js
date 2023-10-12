@@ -7,7 +7,7 @@ import { BrowserRouter,Routes,Route,Link} from 'react-router-dom';
 function App() {
   const details=[
     {
-      name:"Jahnavi",
+      name:"Jahnavi kattoju",
       roll:"623"
     },
     {
@@ -19,7 +19,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-        <Link to="/CompA">click to compA</Link>
+        <Link to="/CompA">click to compAbcdefg</Link>
         <Routes>
              
            <Route path='/CompA' element={<CompA data={details}/>}>
